@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Servo;
@@ -9,11 +10,13 @@ import com.qualcomm.robotcore.hardware.Servo;
 /**
  * Created by angel on 1/28/2018.
  */
-@Autonomous(name = "12425 autonomous" , group = "12425")
+@TeleOp(name = "12425" , group = "12425")
 public class team12425 extends LinearOpMode
 {
-   private DcMotor motorleft;
-   private DcMotor motorright;
+   private DcMotor motortopLeft;
+    private DcMotor motorbottomLeft
+    private DcMotor motortopRight
+    private DcMotor motorbottomRight
 
    private Servo armServo;
 
